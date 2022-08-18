@@ -1,0 +1,2 @@
+2022-05-31T08:10:09+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\wp\wp-includes\Requests\Transport\cURL.php на строке 484
+

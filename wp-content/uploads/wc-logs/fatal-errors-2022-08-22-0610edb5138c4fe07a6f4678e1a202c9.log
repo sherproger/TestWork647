@@ -1,0 +1,124 @@
+2022-08-22T12:01:55+00:00 CRITICAL syntax error, unexpected 'limit' (T_STRING), expecting ']' в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 5
+
+2022-08-22T12:13:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_img() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:17
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 17
+
+2022-08-22T12:17:06+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:14
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 14
+
+2022-08-22T12:20:59+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:8
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 8
+
+2022-08-22T12:25:41+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:11
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 11
+
+2022-08-22T12:25:42+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:11
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 11
+
+2022-08-22T12:25:45+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:11
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 11
+
+2022-08-22T12:34:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::price() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:21
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 21
+
+2022-08-22T12:37:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Abstract_Legacy_Product::get_price_html_from_to(), 0 passed in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php on line 35 and exactly 2 expected in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-product.php:298
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php(35): WC_Abstract_Legacy_Product->get_price_html_from_to()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#3 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#4 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-product.php на строке 298
+
+2022-08-22T12:37:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Abstract_Legacy_Product::get_price_html_from_to(), 0 passed in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php on line 35 and exactly 2 expected in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-product.php:298
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php(35): WC_Abstract_Legacy_Product->get_price_html_from_to()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#3 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#4 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-product.php на строке 298
+
+2022-08-22T12:44:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_onsale() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:22
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 22
+
+2022-08-22T12:44:43+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_sale() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:22
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 22
+
+2022-08-22T12:44:45+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_sale() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:22
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 22
+
+2022-08-22T12:47:51+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_price() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:21
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 21
+
+2022-08-22T13:10:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_short_description() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:26
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 26
+
+2022-08-22T13:10:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_short_description() in /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php:26
+Stack trace:
+#0 /home/u923070168/domains/spanieltoken.net/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u923070168/domains/spanieltoken.net/public_html/wp-blog-header.php(19): require_once('/home/u92307016...')
+#2 /home/u923070168/domains/spanieltoken.net/public_html/index.php(17): require('/home/u92307016...')
+#3 {main}
+  thrown в /home/u923070168/domains/spanieltoken.net/public_html/wp-content/themes/storefront/template.php на строке 26
+

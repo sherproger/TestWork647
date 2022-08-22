@@ -70,7 +70,12 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * https://github.com/woocommerce/theme-customisations
  */
 
-
+add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+wp_enqueue_script('jquery');
+function my_scripts_method(){
+    wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js');
+    wp_enqueue_style( 'bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css');
+}
 
 
 /**
